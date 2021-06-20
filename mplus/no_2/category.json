@@ -1,0 +1,67 @@
+[{
+  "_id": {
+    "$oid": "60cdea622291f50fe6eea7b2"
+  },
+  "nama_category": "Arsitektur & Design",
+  "jenis_category": "Buku"
+},{
+  "_id": {
+    "$oid": "60cdea702291f50fe6eea7b3"
+  },
+  "nama_category": "Persiapan Buku Ujian",
+  "jenis_category": "Buku"
+},{
+  "_id": {
+    "$oid": "60cdea782291f50fe6eea7b4"
+  },
+  "nama_category": "Kedokteran",
+  "jenis_category": "Buku"
+},{
+  "_id": {
+    "$oid": "60cdea7e2291f50fe6eea7b5"
+  },
+  "nama_category": "Majalah",
+  "jenis_category": "Buku"
+},{
+  "_id": {
+    "$oid": "60cdea8a2291f50fe6eea7b6"
+  },
+  "nama_category": "Pertanian",
+  "jenis_category": "Buku"
+},{
+  "_id": {
+    "$oid": "60cdea9d2291f50fe6eea7b7"
+  },
+  "nama_category": "Buku Remaja dan Anak - Anak",
+  "jenis_category": "Buku"
+},{
+  "_id": {
+    "$oid": "60cdeaa92291f50fe6eea7b8"
+  },
+  "nama_category": "Keluarga",
+  "jenis_category": "Buku"
+},{
+  "_id": {
+    "$oid": "60cdeab32291f50fe6eea7b9"
+  },
+  "nama_category": "Religi & Spiritual",
+  "jenis_category": "Buku"
+},{
+  "_id": {
+    "$oid": "60cdeabe2291f50fe6eea7ba"
+  },
+  "nama_category": "Buku Hukum",
+  "jenis_category": "Buku"
+},{
+  "_id": {
+    "$oid": "60cdeacd2291f50fe6eea7bb"
+  },
+  "nama_category": "Kesehatan & Gaya Hidup",
+  "jenis_category": "Buku"
+},{
+  "_id": {
+    "$oid": "60cdead82291f50fe6eea7bc"
+  },
+  "nama_category": "Novel & Sastra",
+  "jenis_category": "Buku"
+}]
