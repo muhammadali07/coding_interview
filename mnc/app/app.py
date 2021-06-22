@@ -16,7 +16,7 @@ def check_data():
     data = mongo.db.buku.find({})
     output = []
     for x in data:
-        output.append({'nama category':x['nama_category'], 'jenis category':x['jenis_category']})
+        output.append({'nama_category':x['nama_category'], 'jenis_category':x['jenis_category']})
         json_data = dumps(output, indent = 2)
         with open ('datax.json', 'w') as file:
             file.write(json_data)

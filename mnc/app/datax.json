@@ -1,50 +1,50 @@
 [
   {
-    "nama category": "Arkeolog",
-    "jenis category": "buku"
+    "nama_category": "Arkeolog",
+    "jenis_category": "buku"
   },
   {
-    "nama category": "Arsitektur & Design",
-    "jenis category": "Buku"
+    "nama_category": "Arsitektur & Design",
+    "jenis_category": "Buku"
   },
   {
-    "nama category": "Persiapan Buku Ujian",
-    "jenis category": "Buku"
+    "nama_category": "Persiapan Buku Ujian",
+    "jenis_category": "Buku"
   },
   {
-    "nama category": "Kedokteran",
-    "jenis category": "Buku"
+    "nama_category": "Kedokteran",
+    "jenis_category": "Buku"
   },
   {
-    "nama category": "Majalah",
-    "jenis category": "Buku"
+    "nama_category": "Majalah",
+    "jenis_category": "Buku"
   },
   {
-    "nama category": "Pertanian",
-    "jenis category": "Buku"
+    "nama_category": "Pertanian",
+    "jenis_category": "Buku"
   },
   {
-    "nama category": "Buku Remaja dan Anak - Anak",
-    "jenis category": "Buku"
+    "nama_category": "Buku Remaja dan Anak - Anak",
+    "jenis_category": "Buku"
   },
   {
-    "nama category": "Keluarga",
-    "jenis category": "Buku"
+    "nama_category": "Keluarga",
+    "jenis_category": "Buku"
   },
   {
-    "nama category": "Religi & Spiritual",
-    "jenis category": "Buku"
+    "nama_category": "Religi & Spiritual",
+    "jenis_category": "Buku"
   },
   {
-    "nama category": "Buku Hukum",
-    "jenis category": "Buku"
+    "nama_category": "Buku Hukum",
+    "jenis_category": "Buku"
   },
   {
-    "nama category": "Kesehatan & Gaya Hidup",
-    "jenis category": "Buku"
+    "nama_category": "Kesehatan & Gaya Hidup",
+    "jenis_category": "Buku"
   },
   {
-    "nama category": "Novel & Sastra",
-    "jenis category": "Buku"
+    "nama_category": "Novel & Sastra",
+    "jenis_category": "Buku"
   }
 ]
