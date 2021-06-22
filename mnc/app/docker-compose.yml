@@ -1,0 +1,24 @@
+version: '3.9'
+services:
+  web:
+    build: .
+    ports:
+    - "5001:5000"
+    volumes:
+    - .:/app
+    links:
+    - mongo
+  mongo:
+    image: mongo
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: root
+    volumes:
+      - mongo-data:/data/db
+      - mongo-configdb:/data/configdb
+    ports: 
+      - 27017 : 27017
+    command: mongod
+volumes:
+  mongo-data:
+  mongo-configdb:
