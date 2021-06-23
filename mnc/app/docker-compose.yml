@@ -2,12 +2,15 @@ version: '3.8'
 services:
   web:
     build: .
+    restart: always
     ports:
     - "5001:5000"
     volumes:
     - .:/app
     links:
     - mongo
+    depends_on: 
+      - mongo
     networks: 
       - flask_network
   # mongo:

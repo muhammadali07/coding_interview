@@ -20,7 +20,7 @@ def check_data():
         json_data = dumps(output, indent = 2)
         with open ('datax.json', 'w') as file:
             file.write(json_data)
-    return jsonify(output)
+    return jsonify({'result':output})
 
 if __name__ =='__main__':
     app.run(debug=True)
