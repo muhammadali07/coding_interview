@@ -1,7 +1,8 @@
 from flask import Flask, json
 from flask_pymongo import PyMongo
 from flask import jsonify
-from bson.json_util import dumps, ObjectId
+from bson.json_util import dumps
+
 
 app = Flask(__name__)
 app.config["MONGO_URI"] = "mongodb://127.0.0.1:27017/mnc"
@@ -9,7 +10,7 @@ mongo = PyMongo(app)
 
 @app.route('/')
 def index():
-    return 'Backend of Python Developer'
+    return 'Backend of Python Developer Written Test at MNC Corporation'
 
 @app.route('/check')
 def check_data():

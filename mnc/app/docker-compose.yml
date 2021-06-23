@@ -9,8 +9,6 @@ services:
     - .:/app
     links:
     - mongo
-    depends_on: 
-      - mongo
     networks: 
       - flask_network
   # mongo:
