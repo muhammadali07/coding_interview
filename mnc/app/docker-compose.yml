@@ -11,17 +11,6 @@ services:
     - mongo
     networks: 
       - flask_network
-  # mongo:
-  #   image: mongo
-  #   environment:
-  #     MONGO_INITDB_ROOT_USERNAME: root
-  #     MONGO_INITDB_ROOT_PASSWORD: root
-  #   volumes:
-  #     - mongo-data:/data/db
-  #     - mongo-configdb:/data/configdb
-  #   ports: 
-  #     - 27017:27017
-  #   command: mongod
   mongo:
     restart: always
     image: mongo:4.2
