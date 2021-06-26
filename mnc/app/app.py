@@ -6,7 +6,7 @@ from bson.json_util import dumps
 
 app = Flask(__name__)
 #for IP of DB, you can find the IP using command docker inspect <docker-container_name-db>
-app.config["MONGO_URI"] = "mongodb://172.19.0.2:27017/mnc"
+app.config["MONGO_URI"] = "mongodb://172.19.0.3:27017/mnc"
 mongo = PyMongo(app)
 
 @app.route('/')
